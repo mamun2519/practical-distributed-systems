@@ -66,7 +66,5 @@ services:
 volumes:
   postgres:
   mailhog:
-  redis-stack:
-  rabbitmq_data:
-  kong_data:
+
 
