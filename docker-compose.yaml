@@ -53,12 +53,7 @@ services:
     environment:
       - REDIS_ARGS=--save 900 1
 
-  rabbitmq:
-    image: rabbitmq:3.8-management
-    ports:
-    bitmq
 
-  # ------------------------------------------
 
 
 
