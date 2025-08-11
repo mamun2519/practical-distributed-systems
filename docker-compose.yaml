@@ -56,7 +56,10 @@ services:
   rabbitmq:
     image: rabbitmq:3.8-management
     ports:
-    bitmq
+      - "5672:5672" # RabbitMQ main port
+      - "15672:15672" # RabbitMQ management UI port
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
 
   # ------------------------------------------
 
