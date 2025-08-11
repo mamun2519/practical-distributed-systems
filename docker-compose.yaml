@@ -63,5 +63,8 @@ services:
 
   # ------------------------------------------
 
+volumes:
+  postgres:
+  mailhog:
 
 
